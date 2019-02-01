@@ -14,19 +14,19 @@ client.on('message', message => {
 
 if (message.content.startsWith('.pl')) {
 client.user.setActivity(argresult, {type:'Playing'});
-    message.channel.send(` تم تغير البلاينق ألى **${argresult} \** `)
+    message.channel.send(` <: :white_check_mark:  **${argresult} \** `)
 } else 
 if (message.content.startsWith('.st')) {
   client.user.setGame(argresult, "https://www.twitch.tv/meercy");
-   message.channel.send(` تم تغير الستريمنق ألى **${argresult} \** `)
+   message.channel.send(` <: :white_check_mark:  **${argresult} \** `)
 } else
 if (message.content.startsWith('.ls')) {
    client.user.setActivity(argresult, {type:'Listening'});
-    message.channel.send(` تم تغير اللسننق ألى **${argresult} \** `)
+    message.channel.send(` <: :white_check_mark:  **${argresult} \** `)
 } else
 if (message.content.startsWith('.wt')) {
    client.user.setActivity(argresult, {type:'Watching'});
-    message.channel.send(` تم تغير الواتشنق ألى **${argresult} \** `)
+    message.channel.send(` <: :white_check_mark:  **${argresult} \** `)
 }
 });
 
